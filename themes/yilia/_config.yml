@@ -3,8 +3,8 @@
 menu:
   主页: /
   随笔: /tags/随笔/
-  Vue.js: /tags/Vue/
-  node.js: /tags/node/
+  vue.js: /tags/vue.js/
+  node.js: /tags/node.js/
 
 # SubNav
 subnav:
