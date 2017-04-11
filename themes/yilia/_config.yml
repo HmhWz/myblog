@@ -2,24 +2,25 @@
 
 menu:
   主页: /
+  所有文章: /archives/
   随笔: /tags/随笔/
-  vue.js: /tags/vue.js/
-  node.js: /tags/node.js/
+  工具: /categories/tools/
+  Vue.js: /categories/Vue/
+  Node.js: /categories/node/
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
-  #qq: "#"
+  github: "https://github.com/HmhWz/"
+  #weibo: ""
+  zhihu: "https://www.zhihu.com/people/xiao-yao-41-94"
+  #qq: ""
   #weixin: "#"
   #jianshu: "#"
   #douban: "#"
   #segmentfault: "#"
   #bilibili: "#"
   #acfun: "#"
-  #mail: "mailto:litten225@qq.com"
+  #mail: "mailto:934178858@qq.com"
   #facebook: "#"
   #google: "#"
   #twitter: "#"
@@ -58,7 +59,7 @@ weixin:
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: /favicon.jpg
 
 #你的头像url
 avatar: /img/avatar.jpg
