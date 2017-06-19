@@ -1,7 +1,7 @@
 ---
 title: linux各个目录作用
 date: 2017-06-19 19:47:38
-tags:
+tags: 
 categories: linux
 ---
 ## /bin
