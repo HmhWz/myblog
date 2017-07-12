@@ -58,3 +58,53 @@ hmh@hmh-ubuntu:~/桌面$ file 计算机课程体系.jpg
 计算机课程体系.jpg: JPEG image data, JFIF standard 1.01, resolution (DPI), density 96x96, segment length 16, baseline, precision 8, 1293x740, frames 3
 hmh@hmh-ubuntu:~/桌面$ 
 ```
+## mkdir 创建一个指定名字的目录，一次可以同时创建多个。
+```bash
+hmh@hmh-ubuntu:~/桌面$ mkdir haha
+hmh@hmh-ubuntu:~/桌面$ 
+```
+然后桌面上就会有一个名为haha的目录了
+## cp 复制文件和目录
+```bash
+hmh@hmh-ubuntu:~/桌面$ cp hello.py ../nihao.py
+hmh@hmh-ubuntu:~/桌面$ 
+```
+上述命令将桌面的hello.py复制到用户主目录下并命名为nihao.py
+### cp -a
+复制文件和目录以及他们的拥有的权限。
+### cp -i
+重写已存在文件之前，提示用户确认。如果不指定这个选项，会默认重写文件。
+```bash
+hmh@hmh-ubuntu:~/桌面$ cp hello.py ../nihao.py -i
+cp：是否覆盖'../nihao.py'？ y
+hmh@hmh-ubuntu:~/桌面$ 
+```
+### cp -r
+递归复制目录及目录中的内容。复制目录时需要这个选项。
+### cp -u
+仅复制目标目录中不存在的文件，或者是文件内容新于目标目录中已存在的文件。
+### cp -v
+显示翔实的命令操作信息。
+## mv 移动和重命名文件，使用方法与cp相似
+### mv -i 
+重写一个已经存在的文件之前，提示用户确认。如果省略则默认重写。
+### mv -u
+当把文件从一个目录移动另一个目录时，只是移动不存在的文件，或者文件内容新于目标目录相对应文件的内容
+### -v
+显示翔实的操作信息。
+
+## rm 删除文件和目录
+### rm -i
+删除之前提示用户确认。
+### rm -r
+递归删除文件，要删除一个目录，必须指定此选项。
+### rm -f
+强制删除，不显示提示信息。
+### rm -v
+显示翔实的操作信息
+## ln 创建硬链接或符号链接
+### ln file link
+创建硬链接
+### ln -s item link
+创建符号链接，item可以是一个文件或是一个目录。
+
